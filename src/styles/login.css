@@ -1,0 +1,17 @@
+.center-card-header {
+    text-align: center; /* Horizontally center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Vertically center the content */
+    background-color: #212529;
+  }
+.card-header{
+  background-color: #212529;
+  color: white;
+}
+  .center-text {
+    text-align: center;
+    background-color: #212529;
+    color: white;
+  }
