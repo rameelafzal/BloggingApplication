@@ -1,0 +1,15 @@
+.toast {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .toast-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .toast-body {
+    font-size: 14px;
+  }

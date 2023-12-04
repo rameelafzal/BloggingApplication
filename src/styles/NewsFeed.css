@@ -1,0 +1,60 @@
+.sticky-pagination {
+  position: sticky;
+  bottom: 0;
+  background-color: white; /* Adjust as needed */
+  z-index: 1;
+}
+
+.posts-container {
+  max-height: 70vh; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+  padding: 10px; /* Add padding as needed */
+}
+.blogs-count {
+  font-size: 18px;
+  color: #333; /* Text color */
+  text-align: left;
+}
+
+.count {
+  font-size: 24px; /* Adjust the font size for the count */
+}
+.filter-options {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.filter-options label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-options select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  width: 150px; /* Adjust the width as needed */
+}
+
+.sorting-options {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.sorting-options label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sorting-options select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  width: 150px; /* Adjust the width as needed */
+}
